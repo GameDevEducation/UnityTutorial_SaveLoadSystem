@@ -15,6 +15,7 @@ public class SavedGameState
         {
             public PrimitiveType Type;
             public System.Tuple<float, float, float> Location;
+            public System.Tuple<float, float, float, float> Rotation;
         }
 
         public string ID;
